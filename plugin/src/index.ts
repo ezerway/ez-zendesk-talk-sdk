@@ -41,7 +41,7 @@ const withAndroidZendeskTalkGradle: ConfigPlugin = (config) => {
 
 export function addZendeskTalkImport(src: string): MergeResults {
   return appendContents({
-    tag: "expo-zendesk-talk-import",
+    tag: "ez-zendesk-talk-sdk-import",
     src,
     newSrc: gradleMaven,
     comment: "//",
