@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "ez-zendesk-talk-sdk": ["../src/index"],
+      "ez-zendesk-talk-sdk/*": ["../src/*"]
+    }
+  }
+}

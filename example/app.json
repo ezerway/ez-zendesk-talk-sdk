@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ez-zendesk-talk-sdk-example",
+    "slug": "ez-zendesk-talk-sdk-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "expo.modules.ezzendesktalksdk.example"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "expo.modules.ezzendesktalksdk.example"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "plugins": [["../app.plugin.js", { "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone" }]]
+}

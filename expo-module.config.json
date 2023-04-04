@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["EzZendeskTalkSdkModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.ezzendesktalksdk.EzZendeskTalkSdkModule"]
+  }
+}
