@@ -10,7 +10,7 @@ const Separator = () => <View style={styles.separator} />;
 
 export default function App() {
   const [expoZendeskTalk, setExpoZendeskTalk] = useState(false);
-  const [digitalLine, setDigitalLine] = useState("Test");
+  const [digitalLine, setDigitalLine] = useState("Support");
   const [lineAvailable, setLineAvailable] = useState(false);
 
   const onPressLineStatus = useCallback(async () => {

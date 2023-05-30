@@ -40,3 +40,7 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
 }
+// @generated begin ez-zendesk-talk-sdk-import - expo prebuild (DO NOT MODIFY) sync-3f23b9d562ec415cec42d4bbabe9aae1eac413c5
+allprojects { repositories { jcenter() } }
+allprojects { repositories { maven { url 'https://zendesk.jfrog.io/zendesk/repo' } } }
+// @generated end ez-zendesk-talk-sdk-import
